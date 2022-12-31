@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pages</title>
+    <style>
+        body{text-align:center;}
+        table, th, td {border: 1px solid red; align:center;}
+        .center {
+          margin-left: auto;
+          margin-right: auto;
+        }
+        #courseList{display: inline-block;text-align: left;}
+    </style>
+</head>
+<body>
+    <div style="background-color:violet">
+        <h1 id="table-heading">TABLES AND LISTS</h1><br>
+        <table class="center" id="courseTable""width:50%">
+        <tr><th>Roll No</th><th>Name</th><th>Course</th><th>Department</th></tr>
+        <tr><td>1</td><td>AADHARSHINI</td><td>C++</td><td>CSE</td></tr>
+        <tr><td>2</td><td>PRIYANKA</td><td>PYTHON</td><td>IT</td></tr>
+        <tr><td>3</td><td>PRASANNA</td><td>JAVA</td><td>CSE</td></tr>
+        <tr><td>4</td><td>KALAI</td><td>KOTLIN</td><td>AI</td></tr>
+        <tr><td>5</td><td>YUVASREE</td><td>JAVA.NET</td><td>EEE</td></tr>
+        <tr><td>6</td><td>THARUN</td><td>HTML</td><td>ECE</td></tr>
+        </table><br>
+        <h2 id="courseHeading">NO OF COURSES AVAILABLE</h2>
+        <ul id="courseList"><li>ADPP</li><li>ADJP</li><li>HTML</li><li>MYSQL</li><li>JAVA.NET</li></ul>
+    </div>
+       
+    <div style="background-color:orchid">
+        <h1 id="imageHeading">Image</h1>
+        <img src=" https://images.click.in/classifieds/images/177/31_7_2015_10_54_30_c85e5bs0po16jbt2kiaoohaf44_sdkjlhh19.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+    </div>
+       
+    <div style="background-color:Plum">
+        <h1>FILL THE FORM</h1>
+        <form id="login-form">
+        <label>Name :</label>
+        <input type="text" id="fname"><br>
+        <label>Password :</label>
+        <input type="text"><br>
+        <label>Email :</label>
+        <input type="text"><br>
+        <label for="courses">Courses :</label>
+        <select name="Courses" id="course">
+          <option value="PYTHON">PYTHON</option>
+          <option value="HTML">HTML</option>
+          <option value="JAVA">JAVA</option>
+          <option value="KOTLIN">KOTLIN</option>
+          <option value="MYSQL">MYSQL</option>
+        </select><br>
+        <label for="Address">Address :</label>
+        <textarea id="Address" name="Address" rows="8" cols="72"></textarea><br>
+        <label for="Country">Country :</label>
+        <input list="Countries" name="Countries" id="Country">
+        <datalist id="Countries">
+          <option value="INDIA">
+          <option value="FRANCE">
+          <option value="ITALY">
+          <option value="MEXICO">
+          <option value="GERMANY">
+        </datalist><br>
+        <button id="submit_btn" type="submit" form="login-form" value="Submit">Submit</button>
+        </form>
+    </div>
+       
+    <div style="background-color:Lavender">
+        <h1 id="frameHeading">FRAMES IN HTML</h1><br>
+        <iframe id="frameImage1" src=" https://www.programiz.com/c-programming/online-compiler/"></iframe>
+        <iframe id="frameImage2" src="https://www.rmkec.ac.in/"></iframe>
+    </div>
+</body>
+</html>

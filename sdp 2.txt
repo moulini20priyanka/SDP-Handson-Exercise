@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography images</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+
+    <div class="container">
+        <h1 id="titleName"> NEO PHOTOGRAPHY</h1>
+        <h2 id="titleDescription">Beautiful Commercial Photography</h2>
+        <a onclick="myFunction()" id="viewWork">View Work</a>
+    </div>
+    <div id="images">
+    <div class="image">
+        <img src="data:image/jpeg;base64,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" alt="pic1" id="backGroundImage" >
+    </div>
+    <div class="image">
+        <h3 id="ourWork"> Our Work</h3>
+        <img src="./1.png" alt="pic2" id="firstImage" >
+    </div>
+    <div class="image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQihKpKulkEGTJHUdsi3P98x9Ws_e4lB9xWw&usqp=CAU" alt="pic3" id="secondImage"><p id="firstImageName"> Food Photography </p>
+        
+    </div>
+    <div class="image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj6W2-UZvFMwsY4sQm6-3oQ0tPXlbKy36xqg&usqp=CAU" alt="pic4" id="thirdImage">
+        <p id="secondImageName">Aerial Photography</p>
+    </div>
+    <div class="image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4HnuIbbYkBMEVhtmhulToj4Q2ePPwxG9V1ulrobZ2J61KZuSHCOnf2wSRye9J3P1yEH0&usqp=CAU" alt="pic5" id="fourthImage">
+        <p id="thirdImageName">Abstract Photography</p>
+    </div>
+</div>
+</div>
+
+</body>
+<script>
+    function myFunction(){
+        var x = document.getElementById("images");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+</html>
+

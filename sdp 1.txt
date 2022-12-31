@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fav Food</title>
+    <style>
+      h1 {
+        position: absolute;
+        top: 140px;
+        left: 250px;
+      }
+      h3 {
+        color: black;
+        text-align: center;
+      }
+          p{
+        color: white;
+        text-align: center;
+      }
+      .food_image {
+        width: 50%;
+        height: 50%;
+      }
+
+      img {
+        height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      span {
+        padding-left: 60px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <div>
+        <div style="background-color: powderblue" class="food_image">
+          <img
+            id="titleImage"
+            src="https://5.imimg.com/data5/CD/WD/QP/SELLER-25053490/celebration-cakes-500x500.jpg"
+            alt="pic3"
+          />
+          <h1 id="titleName">I Love Foods !!</h1>
+        </div>
+        <div style="background-color: yellow" class="food_image">
+          <h3 id="favFood1">Naan panner butter masala</h3>
+          <p id="foodDescription1">uncontrollable craving for it!!</p>
+          <img id="favFoodImage1"
+            src= " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmPcTDMhmgg1Fxn8-1-UWI54SC0GJtKDS5EA&usqp=CAU”
+            alt="pic2"
+          />
+        </div>
+        <div style="background-color: purple" class="food_image">
+          <h3 id="favFood2">biriyani</h3>
+          <p id="foodDescription2">Always on time</p>
+          <img id="favFoodImage2"
+            src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/nxmlubuz0b1qixa29gov"
+            alt="pic1"
+          />
+        </div>
+        <div style="background-color: red" class="food_image">
+          <h3 id="favFood3">noodles</h3>
+          <p id="foodDescription3">nothing can replace it taste</p>
+          <img id="favFoodImage3"
+            src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/hakka-noodles-recipe.jpg"
+            alt="pic4"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("images");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+</html>
+ 
+
+
+
+	
+
